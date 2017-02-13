@@ -1,9 +1,9 @@
-#Standards for using git for CftP projects
+# Standards for using git for CftP projects
 
 We're a diverse group of skillsets at varying levels of skill, completely spread out and working in whatever free time we can. Organization is _king_ in this scenario - otherwise we will end up with drastically approaches to git and messy repos as a result.
 
 ## All repositores must have all non initial commits done by pull-request
-Also, all pull requests must be reviewed. Deployed projects can have minor hot-fixes deployed by admins at critical times, but if this is abused the group may change this rule as it sees fit.
+All pull requests must be reviewed. Deployed projects can have minor hotfixes deployed by admins at critical times, but if this is abused the group may change this rule as it sees fit.
 
 Pull requests should be thoroughly reviewed and discussions on them are encouraged.
 
@@ -17,12 +17,12 @@ Git commits must follow the format of
 ```
 category: Short title
 
-Optional, but highly encouraged, explaining text of any length talking abou what went down.
+Optional, but highly encouraged, explaining text of any length talking about what went down.
 ```
 
-This will keep commits organized and easier to read/categorze for importance.
+This will keep commits organized and easier to read/categorize for importance.
 
-###Category options
+### Category options
 
 * feature - When a new feature is being created
 * fix - For a fixing of a bug. Referencing an issue is a bonus, but not required if not opened
